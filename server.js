@@ -6,7 +6,7 @@ const db = require("./config"); // 假设这是你的数据库连接池配置
 const app = express();  
 app.use(cors());  
 app.use(bodyParser.json());  
-
+//
 const mysql = require('mysql');
 // 创建连接池
 const pool = mysql.createPool(configs.mysql);
